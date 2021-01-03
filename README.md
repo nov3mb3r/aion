@@ -9,9 +9,10 @@ This artifact can help examiners determine and profile user activity during fore
 # Usage
 Aion arguements are the Activity Timeline database and the timezone of the system that is being analyzed. 
 
-
 By default aion will also display the UTC
-`aion.py -o report.csv ActivitiesCache.db ` Antarctica/Davis
+```
+aion.py -o report.csv ActivitiesCache.db Antarctica/Davis
+```
 
 One nice trick to list all available timezones:
 ```
