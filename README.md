@@ -8,10 +8,26 @@ This artifact can help examiners determine and profile user activity during fore
 
 # Usage
 Aion arguements are the Activity Timeline database and the timezone of the system that is being analyzed. 
-
-By default aion will also display the UTC
 ```
 python3 aion.py -o report.csv ActivitiesCache.db Antarctica/Davis
+```
+- Optionally, the rendered output can be stored into a csv file to make analysis easier
+- By default aion will also display the UTC
+
+## Help
+```
+python3 aion.py -h
+usage: aion.py [-h] [-o OUTPUT] f dbtz
+
+positional arguments:
+  f                     ActivitiesCache file
+  dbtz                  Timezone of examined system
+
+optional arguments:
+  -h, --help            show this help message and exit
+  -o OUTPUT, --output OUTPUT
+                        CSV filename to extract the raw database
+
 ```
 
 One nice trick to list all available timezones:
