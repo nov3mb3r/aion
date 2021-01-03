@@ -11,7 +11,7 @@ Aion arguements are the Activity Timeline database and the timezone of the syste
 
 By default aion will also display the UTC
 ```
-aion.py -o report.csv ActivitiesCache.db Antarctica/Davis
+python3 aion.py -o report.csv ActivitiesCache.db Antarctica/Davis
 ```
 
 One nice trick to list all available timezones:
