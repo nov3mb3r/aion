@@ -16,7 +16,7 @@ python3 aion.py -o report.csv ActivitiesCache.db Antarctica/Davis
 
 ## Help
 ```
-python3 aion.py -h
+$ python3 aion.py -h
 usage: aion.py [-h] [-o OUTPUT] f dbtz
 
 positional arguments:
